@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Projects Name:
 
 MyPortfolio-s
@@ -53,3 +54,8 @@ the same pages.
  
  **MIT LICENSE** contributed by **MORINGA SCHOOL**
  --
+=======
+# MyPortfoli
+# Port
+# Port
+>>>>>>> gh-pages
