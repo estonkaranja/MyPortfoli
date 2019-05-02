@@ -3,30 +3,164 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <meta name="author" content="Eston kranja">
-    <link rel="icon" href="https://media.giphy.com/media/wPmEdwwaBNrcA/giphy.gif" type="image/gif" sizes="16x16">
+    <meta name="author" content="Eston karanja">
+    <link rel="icon" href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons#" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="js/main.js"></script>
     <title>Portfolio</title>
    <style>
 .cities {
-  background-color: grey;
+
   color: white;
   margin: 20px;
+  padding: 50px;
+}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa {
   padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+.btn {
+  background-color: purple;
+  border: none;
+  color: white;
+  padding: 0px 0px;
+  font-size: 9px;
+  cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
 }
 </style>
   </head>
+  
   <body>
-    <header>
+  
+      <header>
       <div class="container">
         <nav>
           <ul>
-          
-            <li><a href="#home">Home</a></li>
-            <li><a href="#Photos">Pictures</a></li>
-
-            <li><a href="#contact">Contact Me</a></li>
+            <li><a href="#home"><button class="btn"><i class="fa fa-home"></i> Home</button></a></li>
+            <li><a href="#Photos"><button class="btn"><i class="fa fa-bars"></i> Photos</button></a></li>
+            <li><a href="#About Me."><button class="btn"><i class="fa fa-close"></i> About Me.</button></a></li>
           </ul>
         </nav>
       </div>
@@ -36,16 +170,29 @@
         <div class="container">
           <h1>Welcome.</h1>
           <p>Welcome to my web-page.This is just an illustration that all i do is code and that i would like you to come and like my projects
-          on github please.</p>
+          on github please.My Name is Estonkaranja,over the years my dream has been of positive energy in technology contribution,
+
+         <bb> nation building and making a generation of tech concious beings.Born and raised in the highlands of Thika,</bb>
+
+          <dd>Kenya,studied my primary,highschool to join Moringa  and now currently at Moringa School doing</dd>
+
+          <bb>what I love. In the past I have done project on wordpress, such as palaiseleganza.com,in Moringa I look forward</bb>
+
+          <dd>to be a <br><strong>#"Android developer"</strong></br> .I prefer watching movies,series especially those that surround tech,fiction and drama</dd>
+
+          <bb>,my favourite being Triple frontier.please view this site on git-hub pages at <a href="https://estonkaranja.github.io/my-portfolio/">github page</a></p>
         </div>
       </section>
     </div>
+    <br>
+    <hr>
+    <br>
     <div class="container">
-      <section id="triangles">
+      <section id="banner">
           <article id="main-col">
-            <h1 class="about"Me</h1>
-            <div class="cities">
-            <h4><u>Photos</u></h4>
+            <h1 class="photos"><u>Photos</u></h1>
+            <div id="Photos">
+            
             <p><!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -76,36 +223,144 @@
            
           </article>
           </div>
+          <section id="banner">
+          <div class="dark">
           <aside id="sidebar">
-            <div class="dark">
-              <h3><u>Types of Schools.</u></h3>
+            <div id="Schools.">
+              <h1 class="Schools"><u>Schools</>.</u></h1>
               <ol>
                 <li>Waithaka Riverside School.</li>
                 <li>Moringa School.</li>
                 <li>ICS college.</li>
               </ol>
             </div>
+            </div>
           </aside>
       </section>
+      
+<br>
+<br>
+<hr>
+<br>
+<br>
  
       </div>
- <h4>Things i like.</h4>
+      <div class="dark">
+<h1 class="Things i like."><u>Things i like.</></u></h1>
  <p>Actually i like alot of things but still i don't know what can make you understand what i am talking about
  but please you can check on my other link here.</p>
+ 
+					<div class="column1">
+
+						<div class="box project-text">
+
+							<article>
+
+								<div>
+
+									<p>
+
+										This is my <a href="https://github.com/estonkaranja/Portifolio.git">first website that actually exsite in my memory.
+										You welcome to send feedback whether positive or negative you know.</a> 
+                    Actually what helped me the most is about the usage of github .com that managed me be able to 
+										acquire alot forms of html, css, Javascripts. And most of Bootstrsap helped too.
+									
+									</p>
+								
+								</div>
+							
+							</article>
+						
+						</div>
+					
+					</div>
+          <div class="column2">
+				
+						<div class="box project-text">
+				
+							<article>
+				
+								<div>
+				
+									<p>
+				
+										Acuatlly my first and for most help came from google and also had helped me acqurie more from technology
+										[Click] the words in bold blue To acquire goole on your laptop and browse swiftly <a href="https://Youtube.com">Mchannel Google(#'Google'.com)</a>
+										and faster while it is very securec you according to the data bundles <a href="https://Youtube.com">My channel website(':Youtube.com:')</a> To be able to acquire alot of funky and favorite videos in the whole Universe.
+									that while actully help in in the  day to day hustle and reduse stress.
+		
+			
+			<br>
+
+ <section>
+			<div>
+      <br>
+<hr>
+<br>
+				<h1 class="My hobbies"><u>My hobbies.</u></h1>
+
+					<ul>
+<bb><li>Swimming</label></li></bb>
+						
+<br>
+<dd><li>Gaming basket</label></li></dd>
+
+<br>
+<bb><li>Watching</label></li></bb>
+						
+<br>
+<dd><li>Eating</label></li></dd>
+						
+            <br>
+		
+					<bb><li>Sleeping</label></bb>
+					<br>
+			
+					</ul>
+
+			</div>
+
+		</section></p>
+ </div>
+ 							
+									</p>
+								
+								</div>
+							
+							</article>
+						
+						</div>
+					
+					</div>
+				
+				</div>
    <aside id="sidebar">
-            <div class="dark">
-              <h3><u>About Me.</u></h3>
+   <div class="container">
+            <div id="About Me.">
+            <h1 class="About Me"><u>About Me</u></h1>
               <ol>
                 <li>I like visiting the National Parks.</li>
                 <li>I like swimming-pools too.</li>
                 <li>Music is part of me too.</li>
               </ol>
             </div>
+            </div>
+          </aside>
+             <aside id="sidebar">
+             <div class="container">
+            <div id="Projects.">
+               <h1 class="projects."><u>Projects.</u></h1>
+              <p>I have a couple of projects please check them out</p>
+              <ol>
+                <li><a href="https://github.com" class="fa fa-github"></a></li>
+            </ol>
+            </div>
+            </div>
           </aside>
       <div id="contact">
        <div class="container">
          <article id="main-col">
-           <h1 class="about">Contact Us</h1>
+            <h1 class="contacts"><u>contacts</u></h1>
            <p>Call: +254 724 351 764</p>
            <p>Email: estonkaranja881@gmail.com</p>
            <p>SMS: +254 724 351 764</p>
@@ -113,6 +368,30 @@
      </div>
         </div>
      <footer>
+<h1 class="Social Media"><u>Social Media.</u></h1>
+
+<!-- Add font awesome icons -->
+<a href="https://facebook.com" class="fa fa-facebook"></a>
+<a href="https://twitter.com" class="fa fa-twitter"></a>
+<a href="https://google.com" class="fa fa-google"></a>
+<a href="https://linkedin" class="fa fa-linkedin"></a>
+<a href="https://Youtube.com" class="fa fa-youtube"></a>
+<a href="https://instagram.com" class="fa fa-instagram"></a>
+<a href="https://Pinterest.com" class="fa fa-pinterest"></a>
+<a href="https://snapchat-ghost" class="fa fa-snapchat-ghost"></a>
+<a href="https://skype.com" class="fa fa-skype"></a>
+<a href="https://android.com" class="fa fa-android"></a>
+<a href="https://dribbble.com" class="fa fa-dribbble"></a>
+<a href="https://vimeo.com" class="fa fa-vimeo"></a>
+<a href="https://tumblr.com" class="fa fa-tumblr"></a>
+<a href="https://vine.com" class="fa fa-vine"></a>
+<a href="https://foursquare.com" class="fa fa-foursquare"></a>
+<a href="https://stumbleupon.com" class="fa fa-stumbleupon"></a>
+<a href="https://flickr.com" class="fa fa-flickr"></a>
+<a href="https://yahoo.com" class="fa fa-yahoo"></a>
+<a href="https://reddit.com" class="fa fa-reddit"></a>
+<a href="https://rss.com" class="fa fa-rss"></a>
+      
        <p>Eston karanja, Copyright &copy; 2019.</p>
      </footer>
   </body>
