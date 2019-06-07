@@ -4,10 +4,17 @@ body{
   line-height: 1.5;
   padding: 0;
   margin: 0;
+<<<<<<< HEAD
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("..//images/Wallpaper.jpg");
+=======
+
+  background-attachment: scroll;
+  background-image: url("../images/677dae6c40c05644c5bbabccea45bd35.jpg");
+
+>>>>>>> 5b0bc33808823b5e937f91a70f7afe3380f996ff
 }
 
 /*container*/
@@ -16,9 +23,14 @@ body{
   padding: 10px;
   margin: auto;
   overflow: hidden;
+<<<<<<< HEAD
   text-align: center;
   font-size: 20px;
   color: whitesmoke;
+=======
+  text-align: left;
+  color: purple;
+>>>>>>> 5b0bc33808823b5e937f91a70f7afe3380f996ff
  
 
 }
